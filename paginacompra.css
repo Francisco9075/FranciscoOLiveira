@@ -1,0 +1,106 @@
+:root {
+    --headers: #202125;
+    --background: #4d4d4d;
+    --grey: #858585;
+    --lightgrey: #d2d2d2;
+    --shadow: 0 1px 5px rgba(0, 0, 0, 0.473);
+    --hover: 0 3px 10px rgba(0, 0, 0, 0.205);
+    --blue: #3498db;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 80%;
+    margin: 250px auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    background-color: var(--lightgrey);
+    padding: 40px;
+}
+
+
+
+.shoe {
+    width: 300px;
+    height: auto;
+    margin-right: 150px;
+
+}
+
+
+
+
+
+p {
+    color: var(--grey);
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    padding: 15px 30px;
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+
+}
+
+.buy-button:hover {
+    background-color: var(--hover);
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.size {
+    padding: 12px 20px;
+    border: 1px solid var(--lightgrey);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: var(--blue);
+    margin-top: 10px;
+}
+
+.size.selected {
+    background-color: lightblue;
+    color: black;
+}
+
+ul {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+li a:hover {
+    color: var(--grey);
+}

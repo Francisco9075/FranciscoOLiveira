@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Finalizar Compra</title>
+  <link rel="stylesheet" href="final.css">
+  <link rel="icon" href="joradanprinc.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="navbar">
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Index.html #produtos">Produtos</a></li>
+      <li><a href="Index.html #sobre">Sobre</a></li>
+      <li><a href="Index.html #contacto">Contacte-nos</a></li>
+    </ul>
+  </header>
+
+  <br>
+  <br>
+  <br>
+  <form name="registo" class="contacto-form" onsubmit="return valida();">
+    <h3 class="titulo-card">Finalizar Compra</h3>
+    <input type="text" id="nome" placeholder="Nome Completo" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="tel" id="tele" placeholder="Telefone" required>
+    <input type="text" id="morada" placeholder="Morada" required>
+    <input type="text" id="cidade" placeholder="Cidade" required>
+    <input type="text" id="postal" placeholder="Código Postal" required>
+    <button type="submit" class="botao">Finalizar Compra</button>
+  </form>
+
+  <script src="produtocompra.js"></script>
+
+</body>
+
+</html>
